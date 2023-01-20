@@ -637,3 +637,134 @@ width: 100%;
 border-width: 0px 0px 1px 0px;
 
 }
+.pearl{
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+gap: 20px;
+padding: 15px;
+padding-left: 150px;
+padding-right: 60px;
+width: 70%;
+align-items: center;
+border-width: 1px 0px 1px 0px;
+margin: auto;
+margin-bottom: 55px;
+}
+
+/* .pearl>div{
+
+  width: 50%;
+  border: 2px solid blue;
+  border-width: 1px 0px 1px 0px; 
+} */
+.pearl>div img{
+  width: 100%;
+margin-left: 15px;
+}
+.pearl>div:nth-child(1){
+  font-size: 10px;
+}
+.pearl>div:nth-child(2){
+  width: 30%;
+}
+.pearl>div:nth-child(3){
+  width: 50%;
+}
+.pearl>div:nth-child(4){
+  width: 50%;
+}
+.pearl>div:nth-child(5){
+  width: 50%;
+}
+.pearl>div:nth-child(6){
+  width: 30%;
+
+}
+.footer{
+  /* border: 2px solid yellow; */
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 20px;
+  padding: 15px;
+  margin: 15px;
+  background-color: rgb(241, 238, 234);
+}
+.footer>div{
+  /* border: 2px solid black; */
+color: black;
+padding:20px;
+padding-left: 40px;
+box-shadow: rgba(231, 207, 207, 0.24) 0px 3px 8px;
+/* border: 2px solid yellow; */
+}
+
+.footer>div:hover{
+ background-color: rgb(245, 248, 248);
+ 
+}
+.footer>div:nth-child(1)>div:nth-child(1){
+
+  /* logo */
+  /* border: 2px solid red; */
+  width: 60%;
+ 
+}
+
+.footer>div:nth-child(1)>div:nth-child(1) img{
+width: 100%;
+
+}
+
+
+.footer>div:nth-child(1)>div:nth-child(2){
+
+  /* border: 2px solid rgb(197, 236, 22); */
+  width: 100%;
+ 
+}
+
+.footer>div:nth-child(1)>div:nth-child(3){
+
+  /* border: 2px solid rgb(126, 224, 14); */
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.footer>div:nth-child(1)>div:nth-child(3) img{
+
+
+
+ width: 100%;
+ 
+}
+.footer>div:nth-child(1)>div:nth-child(4){
+
+  /* border: 2px solid rgb(15, 182, 224); */
+  width: 100%;
+ 
+}
+.footer>div:nth-child(1)>div:nth-child(5){
+width: 100%;
+/* border: 2px solid rgb(206, 5, 196); */
+display: grid;
+grid-template-columns: repeat(6,1fr);
+gap: 5px;
+}
+.footer>div:nth-child(1)>div:nth-child(5) img{
+  width: 100%;
+  
+  }
+  /* .footer>div:nth-child(1)>div:nth-child(5) img :nth-child(6){
+border: 2px solid rgb(190, 40, 236);
+  
+  } */
+  .copyright{
+    background-color: rgb(19, 33, 34);
+    color: white;
+  }
+  .copyright>div{
+    color: white;
+  }
